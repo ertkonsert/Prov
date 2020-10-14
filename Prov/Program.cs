@@ -12,6 +12,7 @@ namespace Prov
 
             book1.PrintInfo();
 
+            //ändra namn på en bok som man "köpte idag"
             Console.WriteLine("Wow, wasn't that fun? Oh I know! Why don't you write in the name for this new book that you totally bought today:");
             Book yourBook = new Book();
             yourBook.ChangeName();
